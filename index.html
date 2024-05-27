@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-light theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5 pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <img src="./img/2.png" alt="Your Photo" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Hello! I'm Jay Srivastava, a passionate web developer with a knack for creating dynamic and user-friendly
+                    websites. With a strong background in computer science and hands-on experience in various web
+                    technologies, I strive to build applications that not only meet the client's needs but also provide
+                    an exceptional user experience.</p>
+                <p>I specialize in front-end development using HTML, CSS, JavaScript, and React, and have a solid
+                    understanding of back-end technologies like Node.js and databases such as MySQL and MongoDB.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mt-5">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="skill-item text-center">
+                    <i class="fas fa-code fa-3x mb-2"></i>
+                    <h4>Web Development</h4>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-item text-center">
+                    <i class="fas fa-database fa-3x mb-2"></i>
+                    <h4>Database Management</h4>
+                    <p>MySQL, MongoDB</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-item text-center">
+                    <i class="fas fa-paint-brush fa-3x mb-2"></i>
+                    <h4>Android Development</h4>
+                    <p>Java, Kotlin</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-item text-center">
+                    <i class="fas fa-chart-line fa-3x mb-2"></i>
+                    <h4>Programing Languages</h4>
+                    <p>Python, C, C++, Java</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/image.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">A web application that allows users to track their daily tasks and manage
+                            their time efficiently. Built with React and Node.js.</p>
+                        <a href="https://chronos1409.github.io/wordCounter-2/" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/image2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">An e-commerce website designed with a responsive layout, featuring a
+                            shopping cart and user authentication. Developed using HTML, CSS, and JavaScript.</p>
+                        <a href="https://chronos1409.github.io/jay-website/" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./img/image3.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">A portfolio website showcasing various web development projects and skills.
+                            Built with Bootstrap and jQuery.</p>
+                        <a href="index.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- certification -->
+    <section id="projects" class="container mt-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="./img/image4.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text"> my achievement of completing the PHP and MySQL Training with a score of 80.56%.
+                        Grateful for the learning experience and ready to apply my skills. 🌟 #Certification #PHP #MySQL</p>
+                    <a href="https://chronos1409.github.io/wordCounter-2/" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 My Portfolio. All Rights Reserved.
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script >
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Toggle Theme
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+
+        // Initial theme check
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.classList.add('dark-theme');
+            }
+        });
+
+    </script>
+</body>
+
+</html>
